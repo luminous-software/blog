@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Luminous Software Solutions</title>
+  <subtitle>.. tips, tricks, gotchas, observations and cool techniques ..</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="http://luminous-software.solutions/blog/"/>
+  <updated>2017-03-07T02:51:07.523Z</updated>
+  <id>http://luminous-software.solutions/blog/</id>
+  
+  <author>
+    <name>Luminous Software Solutions</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows File Explorer Cmd Trick</title>
+    <link href="http://luminous-software.solutions/blog/2017/03/04/2017-03-04-windows-file-explorer-cmd-trick/"/>
+    <id>http://luminous-software.solutions/blog/2017/03/04/2017-03-04-windows-file-explorer-cmd-trick/</id>
+    <published>2017-03-03T18:22:00.000Z</published>
+    <updated>2017-03-07T02:51:07.523Z</updated>
+    
+    <content type="html"><![CDATA[<p>I’m going to start my first <strong>real</strong> blog post with a neat little trick that I stumbled across the other day.</p>
+<h4 id="A-New-Command-Prompt-Window-The-Hard-way"><a href="#A-New-Command-Prompt-Window-The-Hard-way" class="headerlink" title="A New Command Prompt Window The Hard way"></a>A New Command Prompt Window The Hard way</h4><p>You’re working with some files in a <em>File Explorer</em> window, but you now need to open a <em>Command Prompt</em> that points to that same folder.<br>Maybe you need to issue a few git commands, or node commands.</p>
+<p>You <strong>could</strong>:</p>
+<ul>
+<li>copy the path from the address bar</li>
+<li>open a <em>Command Prompt</em> manually</li>
+<li>paste the path into a <em>cd</em> command</li>
+<li>press ENTER</li>
+</ul>
+<p><img src="/blog/imgs/address-bar.png" alt="Copy Path From Address Bar"><br><img src="/blog/imgs/cd-command.png" alt="Path Path Into Cd Command"></p>
+<p>Or, what would you say if I tell you that you can do it right in the file explorer window where you’re already working,<br>without going through all of those steps?</p>
+<h4 id="A-New-Command-Prompt-Window-Using-The-CMD-Trick"><a href="#A-New-Command-Prompt-Window-Using-The-CMD-Trick" class="headerlink" title="A New Command Prompt Window Using The CMD Trick"></a>A New Command Prompt Window Using The CMD Trick</h4><p>It’s <strong>so</strong> simple:</p>
+<ul>
+<li>click in the file explorer’s address bar (or press Atl-D)</li>
+<li>type <strong><em>cmd</em></strong></li>
+<li>press ENTER</li>
+</ul>
+<p><img src="/blog/imgs/new-command-prompt.png" alt="New Command Prompt"></p>
+<blockquote>
+<p>A new <em>Command Prompt</em> window opens with the path set to the current folder,<br>without you having to copy and paste it there!</p>
+</blockquote>
+<p>I’ve found this technique to be very handy for working with <em>Gulp</em> or <em>Node</em>.</p>
+<p>The same technique also works for <em>PowerShell</em>:</p>
+<ul>
+<li>type <strong><em>powershell</em></strong> in the address bar</li>
+<li>press ENTER</li>
+</ul>
+<p><img src="/blog/imgs/powershell-prompt.png" alt="New Powershell Prompt"></p>
+<blockquote>
+<p>A new <em>PowerShell</em> window opens with the path set to the current folder.</p>
+</blockquote>
+<h4 id="New-File-Explorer-Window-Using-Start"><a href="#New-File-Explorer-Window-Using-Start" class="headerlink" title="New File Explorer Window Using Start"></a>New File Explorer Window Using Start</h4><p>A similar technique works in reverse too! </p>
+<p>At a command prompt:</p>
+<ul>
+<li>type <strong><em>start .</em></strong></li>
+<li>press ENTER</li>
+</ul>
+<blockquote>
+<p>A <em>File Explorer</em> window opens with the path set to the current folder.</p>
+</blockquote>
+<p>Instead of the dot you can put any valid folder path, including environment variables like <code>%appdata%</code> etc.</p>
+<h4 id="More-Info"><a href="#More-Info" class="headerlink" title="More Info"></a>More Info</h4><p>If you’d like more info about what else you can do, have a look at these articles:</p>
+<ul>
+<li><a href="https://www.howtogeek.com/139900/stupid-geek-tricks-run-commands-in-the-windows-explorer-address-bar/" target="_blank" rel="external">Stupid Geek Tricks: Run Commands in the Windows Explorer Address Bar</a></li>
+<li><a href="https://www.howtogeek.com/howto/windows-vista/stupid-geek-tricks-open-an-explorer-window-from-the-command-prompts-current-directory/" target="_blank" rel="external">How to Open an Explorer Window from the Command Prompt’s Current Directory</a></li>
+</ul>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I’m going to start my first &lt;strong&gt;real&lt;/strong&gt; blog post with a neat little trick that I stumbled across the other day.&lt;/p&gt;
+&lt;h4 id=&quot;A-
+    
+    </summary>
+    
+      <category term="Tips &amp; Tricks" scheme="http://luminous-software.solutions/blog/categories/Tips-Tricks/"/>
+    
+      <category term="Windows" scheme="http://luminous-software.solutions/blog/categories/Tips-Tricks/Windows/"/>
+    
+      <category term="File Explorer" scheme="http://luminous-software.solutions/blog/categories/Tips-Tricks/Windows/File-Explorer/"/>
+    
+    
+      <category term="cmd" scheme="http://luminous-software.solutions/blog/tags/cmd/"/>
+    
+      <category term="windows explorer" scheme="http://luminous-software.solutions/blog/tags/windows-explorer/"/>
+    
+      <category term="command prompt" scheme="http://luminous-software.solutions/blog/tags/command-prompt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome to the New Blog</title>
+    <link href="http://luminous-software.solutions/blog/2017/02/28/2017-03-02-welcome-to-the-new-blog/"/>
+    <id>http://luminous-software.solutions/blog/2017/02/28/2017-03-02-welcome-to-the-new-blog/</id>
+    <published>2017-02-27T16:07:00.000Z</published>
+    <updated>2017-03-06T17:44:14.976Z</updated>
+    
+    <content type="html"><![CDATA[<p>It’s been a little while coming, but at last it’s <strong>finally</strong> here!</p>
+<p>I plan to blog on mainly <em>#extendvs</em> topics; any tips, tricks, gotchas, observations or cool techniques that someone in the community might be using.</p>
+<p>Share the #visualstudio love so to speak.</p>
+<hr>
+<p>This blog is powered by:</p>
+<ul>
+<li><a href="https://hexo.io" target="_blank" rel="external">Hexo</a> (<em>a fast, simple &amp; powerful blog framework</em>)</li>
+<li><a href="https://github.com/yannduran/hexo-theme-luminous" target="_blank" rel="external">luminous</a> (custom hexo theme based on <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank" rel="external">landscape</a>)</li>
+</ul>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;It’s been a little while coming, but at last it’s &lt;strong&gt;finally&lt;/strong&gt; here!&lt;/p&gt;
+&lt;p&gt;I plan to blog on mainly &lt;em&gt;#extendvs&lt;/em&gt; topic
+    
+    </summary>
+    
+      <category term="Welcome" scheme="http://luminous-software.solutions/blog/categories/Welcome/"/>
+    
+    
+      <category term="new blog" scheme="http://luminous-software.solutions/blog/tags/new-blog/"/>
+    
+      <category term="extendvs" scheme="http://luminous-software.solutions/blog/tags/extendvs/"/>
+    
+      <category term="visual studio" scheme="http://luminous-software.solutions/blog/tags/visual-studio/"/>
+    
+      <category term="hexo" scheme="http://luminous-software.solutions/blog/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
