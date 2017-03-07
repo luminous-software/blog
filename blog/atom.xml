@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Luminous Software Solutions</title>
+  <subtitle>.. tips, tricks, gotchas, observations and cool techniques ..</subtitle>
+  <link href="/blog//blog/atom.xml" rel="self"/>
+  
+  <link href="https://luminous-software.solutions/blog/"/>
+  <updated>2017-03-07T16:16:38.169Z</updated>
+  <id>https://luminous-software.solutions/blog/</id>
+  
+  <author>
+    <name>Luminous Software Solutions</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows File Explorer Cmd Trick</title>
+    <link href="https://luminous-software.solutions/blog/2017/03/04/2017-03-04-windows-file-explorer-cmd-trick/"/>
+    <id>https://luminous-software.solutions/blog/2017/03/04/2017-03-04-windows-file-explorer-cmd-trick/</id>
+    <published>2017-03-03T18:22:00.000Z</published>
+    <updated>2017-03-07T16:16:38.169Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I’m going to start my first &lt;strong&gt;real&lt;/strong&gt; blog post with a neat little trick that I stumbled across the other day in a&lt;br&gt;&lt;a href
+    
+    </summary>
+    
+      <category term="Tips &amp; Tricks" scheme="https://luminous-software.solutions/blog/categories/Tips-Tricks/"/>
+    
+      <category term="Windows" scheme="https://luminous-software.solutions/blog/categories/Tips-Tricks/Windows/"/>
+    
+      <category term="File Explorer" scheme="https://luminous-software.solutions/blog/categories/Tips-Tricks/Windows/File-Explorer/"/>
+    
+    
+      <category term="cmd" scheme="https://luminous-software.solutions/blog/tags/cmd/"/>
+    
+      <category term="windows explorer" scheme="https://luminous-software.solutions/blog/tags/windows-explorer/"/>
+    
+      <category term="command prompt" scheme="https://luminous-software.solutions/blog/tags/command-prompt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome to the New Blog</title>
+    <link href="https://luminous-software.solutions/blog/2017/02/28/2017-03-02-welcome-to-the-new-blog/"/>
+    <id>https://luminous-software.solutions/blog/2017/02/28/2017-03-02-welcome-to-the-new-blog/</id>
+    <published>2017-02-27T16:07:00.000Z</published>
+    <updated>2017-03-07T14:53:48.707Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;It’s been a little while coming, but at last it’s &lt;strong&gt;finally&lt;/strong&gt; here!&lt;/p&gt;
+&lt;p&gt;I plan to blog on mainly &lt;em&gt;#extendvs&lt;/em&gt; topic
+    
+    </summary>
+    
+      <category term="Welcome" scheme="https://luminous-software.solutions/blog/categories/Welcome/"/>
+    
+    
+      <category term="new blog" scheme="https://luminous-software.solutions/blog/tags/new-blog/"/>
+    
+      <category term="extendvs" scheme="https://luminous-software.solutions/blog/tags/extendvs/"/>
+    
+      <category term="visual studio" scheme="https://luminous-software.solutions/blog/tags/visual-studio/"/>
+    
+      <category term="hexo" scheme="https://luminous-software.solutions/blog/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
