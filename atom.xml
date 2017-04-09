@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://luminous-software.solutions/blog/"/>
-  <updated>2017-04-09T16:05:14.543Z</updated>
+  <updated>2017-04-09T17:07:55.732Z</updated>
   <id>https://luminous-software.solutions/blog/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Luminous Code V1 Has Been Released to Nuget</title>
+    <link href="https://luminous-software.solutions/blog/2017/04/10/Luminous-Code-v1-has-been-released-to-Nuget/"/>
+    <id>https://luminous-software.solutions/blog/2017/04/10/Luminous-Code-v1-has-been-released-to-Nuget/</id>
+    <published>2017-04-09T16:25:27.000Z</published>
+    <updated>2017-04-09T17:07:55.732Z</updated>
+    
+    <content type="html"><![CDATA[<p>I’m pleased to announce that after a few transitions (see below), the first public release of Luminous Code has now been released to Nuget.org.</p>
+<a id="more"></a>
+<h3 id="Transitions"><a href="#Transitions" class="headerlink" title="Transitions"></a>Transitions</h3><ul>
+<li>originally <strong><em>Luminous.Framework</em></strong> <em>(closed source)</em></li>
+<li>which was replaced by <strong><em>YD.Framework</em></strong> <em>(open source)</em></li>
+<li>which was replaced by <strong><em>Luminous Code</em></strong> <em>(open source)</em></li>
+</ul>
+<p>You can download the Nuget packages directly from <a href="https://www.nuget.org/profiles/luminous-software" target="_blank" rel="external">nuget.org</a>, but of course it’s much easier to just use the <em>Extensions and Updates</em> dialog right from within Visual Studio.</p>
+<h3 id="Nuget-Packages"><a href="#Nuget-Packages" class="headerlink" title="Nuget Packages"></a>Nuget Packages</h3><ul>
+<li><a href="https://www.nuget.org/packages/Luminous.Code.Core/" target="_blank" rel="external">Luminous.Code.Core v1.0.2</a></li>
+<li><a href="https://www.nuget.org/packages/Luminous.Code.VisuslStudio/" target="_blank" rel="external">Luminous.Code.VisualStudio v1.0.2</a></li>
+</ul>
+<p>For more information please visit the <a href="https://luminous-software.solutions/luminous-code">Luminous Code Website</a>. This is just the beginning, there’s more to come.</p>
+<p><em>Luminous.Code.Core</em> doesn’t have much in it yet. It’s setting the stage as the supporting act for future Visual Studio related code.</p>
+<p><em>Luminous.Code.VisualStudio</em> already has enough in it to help make writing extension code <strong>easier than ever before!</strong> It’s now being used in extensions like <a href="https://marketplace.visualstudio.com/vsgallery/049c7ac5-ba44-4a72-b4ee-7be7fb1b0edd" target="_blank" rel="external">Luminous Time Savers</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I’m pleased to announce that after a few transitions (see below), the first public release of Luminous Code has now been released to Nuget.org.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Nuget Packages" scheme="https://luminous-software.solutions/blog/categories/Nuget-Packages/"/>
+    
+    
+      <category term="nuget" scheme="https://luminous-software.solutions/blog/tags/nuget/"/>
+    
+      <category term="code" scheme="https://luminous-software.solutions/blog/tags/code/"/>
+    
+      <category term="luminous code" scheme="https://luminous-software.solutions/blog/tags/luminous-code/"/>
+    
+  </entry>
   
   <entry>
     <title>How to Install an Extension Into Any Root Suffix</title>
