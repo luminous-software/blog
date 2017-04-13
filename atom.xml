@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://luminous-software.solutions/blog/"/>
-  <updated>2017-04-09T17:07:55.732Z</updated>
+  <updated>2017-04-13T03:24:00.798Z</updated>
   <id>https://luminous-software.solutions/blog/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Luminous Code V1 Has Been Released to Nuget</title>
-    <link href="https://luminous-software.solutions/blog/2017/04/10/Luminous-Code-v1-has-been-released-to-Nuget/"/>
-    <id>https://luminous-software.solutions/blog/2017/04/10/Luminous-Code-v1-has-been-released-to-Nuget/</id>
+    <title>Luminous Code V1 Has Been Released</title>
+    <link href="https://luminous-software.solutions/blog/2017/04/10/luminous-code-v1-has-been-released/"/>
+    <id>https://luminous-software.solutions/blog/2017/04/10/luminous-code-v1-has-been-released/</id>
     <published>2017-04-09T16:25:27.000Z</published>
-    <updated>2017-04-09T17:07:55.732Z</updated>
+    <updated>2017-04-13T03:24:00.798Z</updated>
     
     <content type="html"><![CDATA[<p>I’m pleased to announce that after a few transitions (see below), the first public release of Luminous Code has now been released to Nuget.org.</p>
 <a id="more"></a>
@@ -57,13 +57,13 @@
   </entry>
   
   <entry>
-    <title>How to Install an Extension Into Any Root Suffix</title>
-    <link href="https://luminous-software.solutions/blog/2017/04/06/how-to-install-an-extension-into-any-root-suffix/"/>
-    <id>https://luminous-software.solutions/blog/2017/04/06/how-to-install-an-extension-into-any-root-suffix/</id>
+    <title>Install an Extension Into Any Root Suffix</title>
+    <link href="https://luminous-software.solutions/blog/2017/04/06/install-an-extension-into-any-root-suffix/"/>
+    <id>https://luminous-software.solutions/blog/2017/04/06/install-an-extension-into-any-root-suffix/</id>
     <published>2017-04-05T15:38:22.000Z</published>
-    <updated>2017-04-09T16:05:14.543Z</updated>
+    <updated>2017-04-13T03:25:52.157Z</updated>
     
-    <content type="html"><![CDATA[<p>The other day in the <em>extendvs</em> Gitter room, Microsoft’s Amadeusz Wieczorek (<em>@AmadeusW</em>) asked if he could use the command-line vsix installer to install an extension into a root suffix of his choice.</p>
+    <content type="html"><![CDATA[<p>The other day in the <em>extendvs</em> Gitter room, Amadeusz Wieczorek (<em>@AmadeusW</em>) asked if he could use the command-line vsix installer to install an extension into a root suffix of his choice.</p>
 <p>He explained that he had an issue where <em>Roslyn</em> deploys only to <code>/RoslynDev</code> and his extension deploys only to <code>/Exp</code> when debugging it. He wanted to manually drop one of them to the other root suffix.</p>
 <a id="more"></a> 
 <p>Amadeusz mentioned to Alex Eyler (<em>@AlexEyler</em>), who is in the VS Team, that he’d heard there is a new command line switch.</p>
@@ -77,7 +77,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;The other day in the &lt;em&gt;extendvs&lt;/em&gt; Gitter room, Microsoft’s Amadeusz Wieczorek (&lt;em&gt;@AmadeusW&lt;/em&gt;) asked if he could use the command-line vsix installer to install an extension into a root suffix of his choice.&lt;/p&gt;
+      &lt;p&gt;The other day in the &lt;em&gt;extendvs&lt;/em&gt; Gitter room, Amadeusz Wieczorek (&lt;em&gt;@AmadeusW&lt;/em&gt;) asked if he could use the command-line vsix installer to install an extension into a root suffix of his choice.&lt;/p&gt;
 &lt;p&gt;He explained that he had an issue where &lt;em&gt;Roslyn&lt;/em&gt; deploys only to &lt;code&gt;/RoslynDev&lt;/code&gt; and his extension deploys only to &lt;code&gt;/Exp&lt;/code&gt; when debugging it. He wanted to manually drop one of them to the other root suffix.&lt;/p&gt;
     
     </summary>
