@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Luminous Software Solutions</title>
+  
   <subtitle>.. tips, tricks, gotchas, observations and cool techniques ..</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://luminous-software.solutions/blog/"/>
-  <updated>2017-04-13T03:24:00.798Z</updated>
+  <updated>2019-02-21T19:50:20.228Z</updated>
   <id>https://luminous-software.solutions/blog/</id>
   
   <author>
@@ -20,24 +21,9 @@
     <link href="https://luminous-software.solutions/blog/2017/04/10/luminous-code-v1-has-been-released/"/>
     <id>https://luminous-software.solutions/blog/2017/04/10/luminous-code-v1-has-been-released/</id>
     <published>2017-04-09T16:25:27.000Z</published>
-    <updated>2017-04-13T03:24:00.798Z</updated>
+    <updated>2019-02-21T19:50:20.228Z</updated>
     
-    <content type="html"><![CDATA[<p>I’m pleased to announce that after a few transitions (see below), the first public release of Luminous Code has now been released to Nuget.org.</p>
-<a id="more"></a>
-<h3 id="Transitions"><a href="#Transitions" class="headerlink" title="Transitions"></a>Transitions</h3><ul>
-<li>originally <strong><em>Luminous.Framework</em></strong> <em>(closed source)</em></li>
-<li>which was replaced by <strong><em>YD.Framework</em></strong> <em>(open source)</em></li>
-<li>which was replaced by <strong><em>Luminous Code</em></strong> <em>(open source)</em></li>
-</ul>
-<p>You can download the Nuget packages directly from <a href="https://www.nuget.org/profiles/luminous-software" target="_blank" rel="external">nuget.org</a>, but of course it’s much easier to just use the <em>Extensions and Updates</em> dialog right from within Visual Studio.</p>
-<h3 id="Nuget-Packages"><a href="#Nuget-Packages" class="headerlink" title="Nuget Packages"></a>Nuget Packages</h3><ul>
-<li><a href="https://www.nuget.org/packages/Luminous.Code.Core/" target="_blank" rel="external">Luminous.Code.Core v1.0.2</a></li>
-<li><a href="https://www.nuget.org/packages/Luminous.Code.VisuslStudio/" target="_blank" rel="external">Luminous.Code.VisualStudio v1.0.2</a></li>
-</ul>
-<p>For more information please visit the <a href="https://luminous-software.solutions/luminous-code">Luminous Code Website</a>. This is just the beginning, there’s more to come.</p>
-<p><em>Luminous.Code.Core</em> doesn’t have much in it yet. It’s setting the stage as the supporting act for future Visual Studio related code.</p>
-<p><em>Luminous.Code.VisualStudio</em> already has enough in it to help make writing extension code <strong>easier than ever before!</strong> It’s now being used in extensions like <a href="https://marketplace.visualstudio.com/vsgallery/049c7ac5-ba44-4a72-b4ee-7be7fb1b0edd" target="_blank" rel="external">Luminous Time Savers</a>.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>I’m pleased to announce that after a few transitions (see below), the first public release of Luminous Code has now been released to Nuget.org.</p><a id="more"></a><h3 id="Transitions"><a href="#Transitions" class="headerlink" title="Transitions"></a>Transitions</h3><ul><li>originally <strong><em>Luminous.Framework</em></strong> <em>(closed source)</em></li><li>which was replaced by <strong><em>YD.Framework</em></strong> <em>(open source)</em></li><li>which was replaced by <strong><em>Luminous Code</em></strong> <em>(open source)</em></li></ul><p>You can download the Nuget packages directly from <a href="https://www.nuget.org/profiles/luminous-software" target="_blank" rel="noopener">nuget.org</a>, but of course it’s much easier to just use the <em>Extensions and Updates</em> dialog right from within Visual Studio.</p><h3 id="Nuget-Packages"><a href="#Nuget-Packages" class="headerlink" title="Nuget Packages"></a>Nuget Packages</h3><ul><li><a href="https://www.nuget.org/packages/Luminous.Code.Core/" target="_blank" rel="noopener">Luminous.Code.Core v1.0.2</a></li><li><a href="https://www.nuget.org/packages/Luminous.Code.VisuslStudio/" target="_blank" rel="noopener">Luminous.Code.VisualStudio v1.0.2</a></li></ul><p>For more information please visit the <a href="https://luminous-software.solutions/luminous-code">Luminous Code Website</a>. This is just the beginning, there’s more to come.</p><p><em>Luminous.Code.Core</em> doesn’t have much in it yet. It’s setting the stage as the supporting act for future Visual Studio related code.</p><p><em>Luminous.Code.VisualStudio</em> already has enough in it to help make writing extension code <strong>easier than ever before!</strong> It’s now being used in extensions like <a href="https://marketplace.visualstudio.com/vsgallery/049c7ac5-ba44-4a72-b4ee-7be7fb1b0edd" target="_blank" rel="noopener">Luminous Time Savers</a>.</p>]]></content>
     
     <summary type="html">
     
@@ -45,132 +31,72 @@
     
     </summary>
     
-      <category term="Nuget Packages" scheme="https://luminous-software.solutions/blog/categories/Nuget-Packages/"/>
+      <category term="Nuget" scheme="https://luminous-software.solutions/blog/categories/Nuget/"/>
     
-    
-      <category term="nuget" scheme="https://luminous-software.solutions/blog/tags/nuget/"/>
     
       <category term="code" scheme="https://luminous-software.solutions/blog/tags/code/"/>
     
       <category term="luminous code" scheme="https://luminous-software.solutions/blog/tags/luminous-code/"/>
     
+      <category term="nuget packages" scheme="https://luminous-software.solutions/blog/tags/nuget-packages/"/>
+    
   </entry>
   
   <entry>
-    <title>Install an Extension Into Any Root Suffix</title>
+    <title>How to Install an Extension Into Any Root Suffix</title>
     <link href="https://luminous-software.solutions/blog/2017/04/06/install-an-extension-into-any-root-suffix/"/>
     <id>https://luminous-software.solutions/blog/2017/04/06/install-an-extension-into-any-root-suffix/</id>
     <published>2017-04-05T15:38:22.000Z</published>
-    <updated>2017-04-13T03:25:52.157Z</updated>
+    <updated>2018-07-19T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>The other day in the <em>extendvs</em> Gitter room, Amadeusz Wieczorek (<em>@AmadeusW</em>) asked if he could use the command-line vsix installer to install an extension into a root suffix of his choice.</p>
-<p>He explained that he had an issue where <em>Roslyn</em> deploys only to <code>/RoslynDev</code> and his extension deploys only to <code>/Exp</code> when debugging it. He wanted to manually drop one of them to the other root suffix.</p>
-<a id="more"></a> 
-<p>Amadeusz mentioned to Alex Eyler (<em>@AlexEyler</em>), who is in the VS Team, that he’d heard there is a new command line switch.</p>
-<p>Alex replied that yes, there is in Dev15 - <code>/rootSuffix</code>. But he thought that it has some issues with nested extensions.</p>
-<p>The odd thing was when I checked the help dialog, the <code>/rootSuffix</code> switch isn’t shown among the rest of the switches in the help screen.</p>
-<p><img src="/blog/imgs/vsix-installer-exe.png" alt="VSIX Installer Exe"></p>
-<p>I checked the version number in the properties dialog of <em>vsixinstaller.exe</em>, and it shows the version number as <strong>15.0.26323.1</strong>, so I was definitely using the VSIX V3 installer that was released with VS 2017 (aka <em>Dev15</em>).</p>
-<p><img src="/blog/imgs/vsix-installer-properties.png" alt="VSIX Installer Properties"></p>
-<p>I haven’t had time to try it out myself yet, so if anyone knows for sure whether this method works or not, please let me know and I’ll update this blog post.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>The other day in the <a href="https://gitter.im/Microsoft/extendvs" target="_blank" rel="noopener">Microsoft/extendvs</a> Gitter room, <a href="https://github.com/AmadeusW" target="_blank" rel="noopener">Amadeusz Wieczorek</a> asked if he could use the command-line vsix installer to install an extension into a <em>root suffix</em> of his choice.</p><a id="more"></a><h2 id="Scenario"><a href="#Scenario" class="headerlink" title="Scenario"></a>Scenario</h2><p>He explained that he had an issue where <em>Roslyn</em> deploys only to <code>/RoslynDev</code> and his extension deploys only to <code>/Exp</code> when debugging it. He wanted to manually drop one of them to the other root suffix.</p><p>Amadeusz mentioned to <a href="https://github.com/AlexEyler" target="_blank" rel="noopener">Alex Eyler</a>, who is in the VS Team, that he’d heard there is a new command line switch.</p><h2 id="Details"><a href="#Details" class="headerlink" title="Details"></a>Details</h2><p>Alex replied that yes, there is in Dev15 - <code>/rootSuffix</code>. But he thought that it has some issues with nested extensions.</p><p>The odd thing was when I checked the help dialog, the <code>/rootSuffix</code> switch isn’t shown among the rest of the switches in the help screen.</p><p><img src="/blog/imgs/vsix-installer-exe.png" alt="VSIX Installer Exe"></p><p>I checked the version number in the properties dialog of <em>vsixinstaller.exe</em>, and it shows the version number as <strong>15.0.26323.1</strong>, so I was definitely using the VSIX V3 installer that was released with VS 2017 (aka <em>Dev15</em>).</p><p><img src="/blog/imgs/vsix-installer-properties.png" alt="VSIX Installer Properties"></p><p>I haven’t had time to try it out myself yet, so if anyone knows for sure whether this method works or not, please let me know and I’ll update this blog post.</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;The other day in the &lt;em&gt;extendvs&lt;/em&gt; Gitter room, Amadeusz Wieczorek (&lt;em&gt;@AmadeusW&lt;/em&gt;) asked if he could use the command-line vsix installer to install an extension into a root suffix of his choice.&lt;/p&gt;
-&lt;p&gt;He explained that he had an issue where &lt;em&gt;Roslyn&lt;/em&gt; deploys only to &lt;code&gt;/RoslynDev&lt;/code&gt; and his extension deploys only to &lt;code&gt;/Exp&lt;/code&gt; when debugging it. He wanted to manually drop one of them to the other root suffix.&lt;/p&gt;
+      &lt;p&gt;The other day in the &lt;a href=&quot;https://gitter.im/Microsoft/extendvs&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Microsoft/extendvs&lt;/a&gt; Gitter room, &lt;a href=&quot;https://github.com/AmadeusW&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Amadeusz Wieczorek&lt;/a&gt; asked if he could use the command-line vsix installer to install an extension into a &lt;em&gt;root suffix&lt;/em&gt; of his choice.&lt;/p&gt;
     
     </summary>
     
-      <category term="VS Extensions" scheme="https://luminous-software.solutions/blog/categories/VS-Extensions/"/>
+      <category term="Visual Studio" scheme="https://luminous-software.solutions/blog/categories/Visual-Studio/"/>
     
+    
+      <category term="how to" scheme="https://luminous-software.solutions/blog/tags/how-to/"/>
     
       <category term="extendvs" scheme="https://luminous-software.solutions/blog/tags/extendvs/"/>
-    
-      <category term="rootsuffix" scheme="https://luminous-software.solutions/blog/tags/rootsuffix/"/>
     
       <category term="visual studio 2017" scheme="https://luminous-software.solutions/blog/tags/visual-studio-2017/"/>
     
       <category term="vsix installer" scheme="https://luminous-software.solutions/blog/tags/vsix-installer/"/>
     
-      <category term="amadeusz wieczorek" scheme="https://luminous-software.solutions/blog/tags/amadeusz-wieczorek/"/>
-    
-      <category term="alex eyler" scheme="https://luminous-software.solutions/blog/tags/alex-eyler/"/>
+      <category term="dev15" scheme="https://luminous-software.solutions/blog/tags/dev15/"/>
     
   </entry>
   
   <entry>
-    <title>Windows File Explorer Cmd Trick</title>
+    <title>How to Open a Command Prompt From File Explorer</title>
     <link href="https://luminous-software.solutions/blog/2017/03/04/windows-file-explorer-cmd-trick/"/>
     <id>https://luminous-software.solutions/blog/2017/03/04/windows-file-explorer-cmd-trick/</id>
     <published>2017-03-03T18:22:00.000Z</published>
-    <updated>2017-04-08T15:14:00.778Z</updated>
+    <updated>2018-07-19T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>I’m going to start my first <strong>real</strong> blog post with a neat little trick that I stumbled across the other day in a <a href="https://channel9.msdn.com/coding4fun/blog" target="_blank" rel="external">Coding4Fun</a> blog post by <a href="https://channel9.msdn.com/Niners/gduncan411" target="_blank" rel="external">Greg Duncan</a>, called <a href="https://channel9.msdn.com/coding4fun/blog/A-Simple-File-Explorer-Magic-Trick" target="_blank" rel="external">A Simple File Explorer Magic Trick</a>.</p>
-<p>Well, it certainly blew <strong>my</strong> mind!</p>
-<p>Say you’re working with some files in a <em>File Explorer</em> window, but you now need to open a <em>Command Prompt</em> that points to that same folder. Maybe you need to issue a few git commands, or node commands.<br><a id="more"></a> </p>
-<h4 id="A-New-‘Command-Prompt’-Window-The-Hard-way"><a href="#A-New-‘Command-Prompt’-Window-The-Hard-way" class="headerlink" title="A New ‘Command Prompt’ Window - The Hard way"></a>A New ‘Command Prompt’ Window - The Hard way</h4><p>You <strong>could</strong>:</p>
-<ul>
-<li>copy the path from the address bar</li>
-<li>open a <em>Command Prompt</em> manually</li>
-<li>paste the path into a <em>cd</em> command</li>
-<li>press ENTER</li>
-</ul>
-<p><img src="/blog/imgs/address-bar.png" alt="Copy Path From Address Bar"><br><img src="/blog/imgs/cd-command.png" alt="Paste Path Into Cd Command"></p>
-<p>Or, what would you say if I tell you that you can do it right in the file explorer window where you’re already working, without going through all of those steps?</p>
-<h4 id="A-New-‘Command-Prompt’-Window-The-Easy-Way"><a href="#A-New-‘Command-Prompt’-Window-The-Easy-Way" class="headerlink" title="A New ‘Command Prompt’ Window - The Easy Way"></a>A New ‘Command Prompt’ Window - The Easy Way</h4><p>It’s <strong>so</strong> simple:</p>
-<ul>
-<li>click in the file explorer’s address bar (or press Atl-D)</li>
-<li>type <strong><em>cmd</em></strong></li>
-<li>press ENTER</li>
-</ul>
-<p><img src="/blog/imgs/new-command-prompt.png" alt="New Command Prompt The Easy Way"></p>
-<blockquote>
-<p>A new <em>Command Prompt</em> window opens with the path set to the current folder, without you having to copy and paste it there!</p>
-</blockquote>
-<p>I’ve found this technique to be very handy for working with <em>Gulp</em> or <em>Node</em>.</p>
-<p>The same technique also works for <em>PowerShell</em>:</p>
-<ul>
-<li>type <strong><em>powershell</em></strong> in the address bar</li>
-<li>press ENTER</li>
-</ul>
-<p><img src="/blog/imgs/powershell-prompt.png" alt="New Powershell Prompt The Easy Way"></p>
-<blockquote>
-<p>A new <em>PowerShell</em> window opens with the path set to the current folder.</p>
-</blockquote>
-<h4 id="New-‘File-Explorer’-Window-The-Easy-Way"><a href="#New-‘File-Explorer’-Window-The-Easy-Way" class="headerlink" title="New ‘File Explorer’ Window - The Easy Way"></a>New ‘File Explorer’ Window - The Easy Way</h4><p>A similar technique works in reverse too! </p>
-<p>At a command prompt:</p>
-<ul>
-<li>type <strong><em>start .</em></strong></li>
-<li>press ENTER</li>
-</ul>
-<blockquote>
-<p>A <em>File Explorer</em> window opens with the path set to the current folder.</p>
-</blockquote>
-<p>Instead of the dot you can put any valid folder path, including environment variables like <code>%appdata%</code> etc.</p>
-<h4 id="More-Info"><a href="#More-Info" class="headerlink" title="More Info"></a>More Info</h4><p>If you’d like more info about what else you can do, have a look at these articles:</p>
-<ul>
-<li><a href="https://www.howtogeek.com/139900/stupid-geek-tricks-run-commands-in-the-windows-explorer-address-bar/" target="_blank" rel="external">Stupid Geek Tricks: Run Commands in the Windows Explorer Address Bar</a></li>
-<li><a href="https://www.howtogeek.com/howto/windows-vista/stupid-geek-tricks-open-an-explorer-window-from-the-command-prompts-current-directory/" target="_blank" rel="external">How to Open an Explorer Window from the Command Prompt’s Current Directory</a></li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<p>Here’s a neat little trick that I stumbled across the other day in a <a href="https://channel9.msdn.com/coding4fun/blog" target="_blank" rel="noopener">Coding4Fun</a> blog post by <a href="https://channel9.msdn.com/Niners/gduncan411" target="_blank" rel="noopener">Greg Duncan</a>, called <a href="https://channel9.msdn.com/coding4fun/blog/A-Simple-File-Explorer-Magic-Trick" target="_blank" rel="noopener">A Simple File Explorer Magic Trick</a>.</p><a id="more"></a><p>Well, it certainly blew <strong>my</strong> mind Greg!</p><p>I’ve been working with Windows for quite sometime (since 3.11) and I didn’t know you could do that (though who know which version it was introduced in).</p><h2 id="Scenario"><a href="#Scenario" class="headerlink" title="Scenario"></a>Scenario</h2><p>Say you’re working with some files in a <em>File Explorer</em> window, but you now need to open a <em>Command Prompt</em> that points to that same folder. Maybe you need to issue a few git commands, or node commands.</p><h2 id="New-Command-Prompt"><a href="#New-Command-Prompt" class="headerlink" title="New Command Prompt"></a>New Command Prompt</h2><h3 id="The-Hard-Way"><a href="#The-Hard-Way" class="headerlink" title="The Hard Way"></a>The Hard Way</h3><p>You <strong>could</strong>:</p><ul><li>copy the path from the address bar</li><li>open a <em>Command Prompt</em> manually</li><li>paste the path into a <em>cd</em> command</li><li>press ENTER</li></ul><p><img src="/blog/imgs/address-bar.png" alt="Copy Path From Address Bar"><br><img src="/blog/imgs/cd-command.png" alt="Paste Path Into Cd Command"></p><p>Or, what would you say if I tell you that you can do it right in the file explorer window where you’re already working, without going through all of those steps?</p><h3 id="The-Easy-Way"><a href="#The-Easy-Way" class="headerlink" title="The Easy Way"></a>The Easy Way</h3><p>It’s <strong>so</strong> simple:</p><ul><li>click in the file explorer’s address bar (or press Atl-D)</li><li>type <strong><em>cmd</em></strong></li><li>press ENTER</li></ul><p><img src="/blog/imgs/new-command-prompt.png" alt="New Command Prompt The Easy Way"></p><blockquote><p>A new <em>Command Prompt</em> window opens with the path set to the current folder, without you having to copy and paste it there!</p></blockquote><p>I’ve found this technique to be very handy for working with <em>Gulp</em> or <em>Node</em>.</p><h2 id="New-Powershell-Prompt"><a href="#New-Powershell-Prompt" class="headerlink" title="New Powershell Prompt"></a>New Powershell Prompt</h2><p>The same technique also works for <em>PowerShell</em>:</p><ul><li>type <strong><em>powershell</em></strong> in the address bar</li><li>press ENTER</li></ul><p><img src="/blog/imgs/powershell-prompt.png" alt="New Powershell Prompt The Easy Way"></p><blockquote><p>A new <em>PowerShell</em> window opens with the path set to the current folder.</p></blockquote><h2 id="New-File-Explorer"><a href="#New-File-Explorer" class="headerlink" title="New File Explorer"></a>New File Explorer</h2><p>A similar technique works in reverse too!</p><p>At a command prompt:</p><ul><li>type <strong><em>start .</em></strong></li><li>press ENTER</li></ul><blockquote><p>A <em>File Explorer</em> window opens with the path set to the current folder.</p></blockquote><p>Instead of the dot you can put any valid folder path, including environment variables like <code>%appdata%</code> etc.</p><h2 id="More-Info"><a href="#More-Info" class="headerlink" title="More Info"></a>More Info</h2><p>If you’d like more info about what else you can do, have a look at these articles:</p><ul><li><a href="https://www.howtogeek.com/139900/stupid-geek-tricks-run-commands-in-the-windows-explorer-address-bar/" target="_blank" rel="noopener">Stupid Geek Tricks: Run Commands in the Windows Explorer Address Bar</a></li><li><a href="https://www.howtogeek.com/howto/windows-vista/stupid-geek-tricks-open-an-explorer-window-from-the-command-prompts-current-directory/" target="_blank" rel="noopener">How to Open an Explorer Window from the Command Prompt’s Current Directory</a></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;I’m going to start my first &lt;strong&gt;real&lt;/strong&gt; blog post with a neat little trick that I stumbled across the other day in a &lt;a href=&quot;https://channel9.msdn.com/coding4fun/blog&quot;&gt;Coding4Fun&lt;/a&gt; blog post by &lt;a href=&quot;https://channel9.msdn.com/Niners/gduncan411&quot;&gt;Greg Duncan&lt;/a&gt;, called &lt;a href=&quot;https://channel9.msdn.com/coding4fun/blog/A-Simple-File-Explorer-Magic-Trick&quot;&gt;A Simple File Explorer Magic Trick&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Well, it certainly blew &lt;strong&gt;my&lt;/strong&gt; mind!&lt;/p&gt;
-&lt;p&gt;Say you’re working with some files in a &lt;em&gt;File Explorer&lt;/em&gt; window, but you now need to open a &lt;em&gt;Command Prompt&lt;/em&gt; that points to that same folder. Maybe you need to issue a few git commands, or node commands.&lt;br&gt;
+      &lt;p&gt;Here’s a neat little trick that I stumbled across the other day in a &lt;a href=&quot;https://channel9.msdn.com/coding4fun/blog&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Coding4Fun&lt;/a&gt; blog post by &lt;a href=&quot;https://channel9.msdn.com/Niners/gduncan411&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Greg Duncan&lt;/a&gt;, called &lt;a href=&quot;https://channel9.msdn.com/coding4fun/blog/A-Simple-File-Explorer-Magic-Trick&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;A Simple File Explorer Magic Trick&lt;/a&gt;.&lt;/p&gt;
     
     </summary>
     
       <category term="Tips &amp; Tricks" scheme="https://luminous-software.solutions/blog/categories/Tips-Tricks/"/>
     
     
+      <category term="how to" scheme="https://luminous-software.solutions/blog/tags/how-to/"/>
+    
       <category term="cmd" scheme="https://luminous-software.solutions/blog/tags/cmd/"/>
     
-      <category term="windows explorer" scheme="https://luminous-software.solutions/blog/tags/windows-explorer/"/>
-    
       <category term="command prompt" scheme="https://luminous-software.solutions/blog/tags/command-prompt/"/>
+    
+      <category term="file explorer" scheme="https://luminous-software.solutions/blog/tags/file-explorer/"/>
     
   </entry>
   
@@ -179,17 +105,13 @@
     <link href="https://luminous-software.solutions/blog/2017/02/28/welcome-to-the-new-blog/"/>
     <id>https://luminous-software.solutions/blog/2017/02/28/welcome-to-the-new-blog/</id>
     <published>2017-02-27T16:07:00.000Z</published>
-    <updated>2017-04-05T14:00:00.000Z</updated>
+    <updated>2018-07-19T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>It’s been a little while coming, but at last it’s <strong>finally</strong> here!<br><a id="more"></a> </p>
-<p>I plan to blog mainly on <em>Visual Studio</em> topics; any tips, tricks, gotchas, extensions, observations or cool techniques that myself or someone in the community might be using. A good source of knowledge for these blog posts will be the <a href="https://github.com/Microsoft/extendvs" target="_blank" rel="external">Microsoft/extendvs</a> gitter room.</p>
-<p>Sharing the <em>visual studio love</em> so to speak.</p>
-<p>After looking around at a few different blogging platforms, I decided to use a <em>static blog generator</em> called <a href="https://hexo.io" target="_blank" rel="external">Hexo</a>. I’m using a <a href="https://git-scm.com/" target="_blank" rel="external">Git</a> repository, and hosting it on <a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a> for free. I’ve even created a custom Hexo theme.</p>
-]]></content>
+    <content type="html"><![CDATA[<p>It’s been a little while coming, but at last the new blog is <strong>finally</strong> here!</p><a id="more"></a><h2 id="Scenario"><a href="#Scenario" class="headerlink" title="Scenario"></a>Scenario</h2><p>After using several different blogging platforms in the past, with my various posts over the years scattered between them, I decided to create a new <a href="https://luminous-software.solutions">Luminous Software</a> blog.</p><p>So I started looking around at a few of the newer blogging platforms. As I did, I got excited about [static blog generators][]. After looking at things like [Ghost][ghost-url] etc, I finally decided to use <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>.</p><p>To host it I’m using a <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a> repository, published to a GitHub repo and leveraging <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> which is free. I’ve even created a custom Hexo theme for the blog.</p><h2 id="New-Blog"><a href="#New-Blog" class="headerlink" title="New Blog"></a>New Blog</h2><p>I plan to blog mainly on <em>Visual Studio</em> topics; any tips, tricks, gotchas, extensions, observations or cool techniques that myself or someone in the community might be using. But if there’s something cool that isn’t to do with Visual Studio, I’ll still blog about it here to keep all of my blog posts in the one spot.</p><p>A good source of knowledge for these blog posts will be the <a href="https://github.com/Microsoft/extendvs" target="_blank" rel="noopener">Microsoft/extendvs</a> gitter room. Sharing the Visual Studio <em>love</em> so to speak.</p><p>I’ll also slowly migrate the scattered past posts here too over time.</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;It’s been a little while coming, but at last it’s &lt;strong&gt;finally&lt;/strong&gt; here!&lt;br&gt;
+      &lt;p&gt;It’s been a little while coming, but at last the new blog is &lt;strong&gt;finally&lt;/strong&gt; here!&lt;/p&gt;
     
     </summary>
     
@@ -197,6 +119,12 @@
       <category term="extendvs" scheme="https://luminous-software.solutions/blog/tags/extendvs/"/>
     
       <category term="visual studio" scheme="https://luminous-software.solutions/blog/tags/visual-studio/"/>
+    
+      <category term="blogs" scheme="https://luminous-software.solutions/blog/tags/blogs/"/>
+    
+      <category term="hexo" scheme="https://luminous-software.solutions/blog/tags/hexo/"/>
+    
+      <category term="ghost" scheme="https://luminous-software.solutions/blog/tags/ghost/"/>
     
   </entry>
   
